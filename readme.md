@@ -1,6 +1,6 @@
-# HTML exercise 16: Final Project
+# HTML - PROJECT BUILDING: About Learning HTML
 
-You've learned a lot about HTML the past 3 weeks. Now it's time to share what you've learned. In this exercise, you need to create a website that can help others learn HTML.
+You've learned a lot about HTML during this week. Now it's time to share what you've learned. In this exercise, you need to create a website that can help others learn HTML.
 
 - [Sections](#sections)
 - [Pages](#pages)
@@ -21,10 +21,10 @@ The website will be broken up into the following sections:
 We won't be creating all the possible pages in this website. Instead, we'll be building at least the following 6 example pages:
 
 - Homepage
+- List of all the HTML5 elements
 - List of all HTML rules
   - Nesting rules in detail
   - Attribute rules in detail
-- List of all the HTML5 elements
 - Tips for writing HTML
 
 ### The homepage
