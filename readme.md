@@ -2,6 +2,8 @@
 
 You've learned a lot about HTML during this week. Now it's time to share what you've learned. In this exercise, you need to create a website that can help others learn HTML.
 
+**Estimated Completion Time:** a full day (~7:30 AM - 3:30 PM, with reasonable breaks)
+
 - [Sections](#sections)
 - [Pages](#pages)
 - [Getting started](#getting-started)
@@ -71,7 +73,9 @@ In this page, we need:
 
 - a good title
 - a definition of an HTML 'element' and what bits make up an 'element'
-- a list of all HTML5 elements by element name
+- a list of all HTML5 elements by element name, organized as a table or list grouped by category (e.g. sectioning, text content, forms, media) rather than one long undifferentiated list
+
+See [MDN's HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for a canonical, categorized list of all HTML5 elements.
 
 ### Tips for writing HTML page
 
@@ -83,11 +87,13 @@ This page is a chance to get personal. Give your reader at least 3 tips on how t
 
 ## Getting started
 
+**Prerequisite:** this lab assumes you're already comfortable with Git branching and SSH setup from earlier lessons — you'll need both from step 2 onward.
+
 1. Create a public repo called: `learning-html`, and add a `README.md`
 1. Copy and clone the SSH URL for this new repo in a directory on your computer, preferably in `~/code/html`.
 1. Create and push the `gh-pages` branch, and enable 'GitHub Pages' on that branch in the repo settings.
 1. Add the URL for this website to the `README.md` file
-1. Use `master` as your default development branch, only merging to `gh-pages` when you're ready to publish your changes.
+1. Use `main` as your default development branch, only merging to `gh-pages` when you're ready to publish your changes.
 1. Get coding!
 
 ## What you'll be marked on
