@@ -75,10 +75,12 @@ In this page, we need:
 
 - a good title
 - a definition of an HTML 'element' and what bits make up an 'element'
-- a list of all HTML5 elements by element name, organized as a **table or categorized list grouped by type** (e.g. sectioning, text content, forms, media) rather than one long undifferentiated list
-  - Recommended: use a table with columns like `Element Name`, `Purpose`, `Self-closing?`, or group elements in sections with headings like "Text Content," "Embedded Content," etc.
+- a list of ~90–100 HTML5 elements organized by **category** (e.g. sectioning, text content, forms, media) rather than one long undifferentiated list
+  - Recommended: use a table with columns like `Element`, `Purpose`, `Self-closing?`, or group elements in sections with headings
+  - Focus on the most common/useful elements, not every single variant
+  - You don't need to recreate the entire MDN spec — pick the ones you think are most important to teach
 
-See [MDN's HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for a canonical, categorized list of all HTML5 elements.
+**Quick reference:** See `lab/elements-reference.md` in this repo for a starter list of elements organized by category, or [MDN's HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for the complete, canonical list.
 
 ### Tips for writing HTML page
 
