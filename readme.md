@@ -40,12 +40,14 @@ The homepage needs to:
 
 ### List of HTML rules page
 
-There are many rules for coding or writing HTML. Try to list as many as you can, one sentence per rule.
+There are many rules for coding or writing HTML. List **at least 15 rules**, one sentence per rule.
 
 Two of the rules need to be links to their own pages:
 
 - The nesting rules
 - The attribute rules
+
+Example rules to consider: proper nesting, closing tags, semantic elements, attribute syntax, DOCTYPE declaration, meta tags, void elements, etc.
 
 #### Nesting rules page
 
@@ -73,7 +75,8 @@ In this page, we need:
 
 - a good title
 - a definition of an HTML 'element' and what bits make up an 'element'
-- a list of all HTML5 elements by element name, organized as a table or list grouped by category (e.g. sectioning, text content, forms, media) rather than one long undifferentiated list
+- a list of all HTML5 elements by element name, organized as a **table or categorized list grouped by type** (e.g. sectioning, text content, forms, media) rather than one long undifferentiated list
+  - Recommended: use a table with columns like `Element Name`, `Purpose`, `Self-closing?`, or group elements in sections with headings like "Text Content," "Embedded Content," etc.
 
 See [MDN's HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for a canonical, categorized list of all HTML5 elements.
 
@@ -94,28 +97,49 @@ This page is a chance to get personal. Give your reader at least 3 tips on how t
 1. Create and push the `gh-pages` branch, and enable 'GitHub Pages' on that branch in the repo settings.
 1. Add the URL for this website to the `README.md` file
 1. Use `main` as your default development branch, only merging to `gh-pages` when you're ready to publish your changes.
+1. In your repo root, create an `index.html` file and link it to your other pages (rules, elements, tips)
 1. Get coding!
+
+**Expected repo structure:**
+```
+learning-html/
+├── index.html              (homepage)
+├── elements.html           (all HTML5 elements list)
+├── rules.html              (all HTML rules)
+├── nesting-rules.html      (detail page)
+├── attribute-rules.html    (detail page)
+├── tips.html               (tips for writing HTML)
+├── css/                    (optional: styling)
+├── images/                 (optional: screenshots, examples)
+└── README.md               (project documentation)
+```
+
+You don't need to match this exactly — organize how it makes sense to you.
 
 ## What you'll be marked on
 
 Your project will be evaluated on:
 
-- Your use of English (Spelling, Grammar)
-- Your code cleanliness (Is it easy to read, and free of garbage?)
-- Your use of HTML elements (Did you use the correct HTML element? Could you have used an HTML element where there is none?)
-- Your Git commits, pushes, branch use.
+- **Your use of English** (Spelling, Grammar) — proof-read your text before submitting
+- **Your code cleanliness** (Is it easy to read, and free of garbage?)
+  - ✅ Good: Proper indentation, semantic elements, closing tags, descriptive file/variable names
+  - ❌ Bad: Inconsistent indentation, unnecessary `<div>` wrappers, missing closing tags, inline styles mixed with structure
+- **Your use of HTML elements** (Did you use the correct HTML element? Could you have used an HTML element where there is none?)
+  - Example: Use `<nav>` for navigation, `<article>` for self-contained content, `<table>` for tabular data
+- **Your Git commits, pushes, branch use** — meaningful commit messages, regular commits, use of main/gh-pages branches
 
 You could also lose points if there are any:
 
-- 404s for any of your links
-- validation **errors** in the W3C validator. Warnings are OK.
+- **404s for any of your links** — test every link before submitting
+- **validation errors in the W3C validator** — Warnings are OK, but errors must be fixed
 
 ## Some hints
 
-- Try to be consistent
-- Keep your HTML clean and easy to read
-- Spell-check and proof-read your English
-- Validate and test your work
-- Do your URLs make structural and meaningful sense?
-- Does your `README.md` contain details on how to develop and publish this website?
-- Do you link to your own pages if you have a matching page for the subject you're talking about?
+- **Try to be consistent** — same indentation, same navigation structure on every page, consistent link naming
+- **Keep your HTML clean and easy to read** — use proper indentation (2-4 spaces per level), avoid unnecessary divs, use semantic elements
+- **Spell-check and proof-read your English** — this is graded
+- **Validate and test your work** — use [W3C Validator](https://validator.w3.org/) to check for errors; test every link
+- **Do your URLs make structural and meaningful sense?** — file names should reflect content (`elements.html`, not `page2.html`)
+- **Document your folder structure in the README.md** — explain how students (or your future self) should run and develop this site
+- **Link to your own pages when relevant** — if you write about an element, link to it in your elements page
+- **Commit frequently with meaningful messages** — e.g., `git commit -m "Add elements page with table structure"` not just `git commit -m "update"`
